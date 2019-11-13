@@ -78,5 +78,16 @@ body {
   }
 }
 
+@media screen and (max-width: 350px){
+  .main {
+    &__container {
+      &__form {
+        > .button {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
 
 
